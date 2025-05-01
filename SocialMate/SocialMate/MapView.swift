@@ -4,7 +4,6 @@
 //
 //  Created by Raunit Raj on 20/04/25.
 //
-// MapView.swift
 
 import SwiftUI
 import MapKit
@@ -20,7 +19,7 @@ struct MapView: View {
     var body: some View {
         Map(position: $position, interactionModes: .all)
             .mapControls {
-                MapUserLocationButton() // Shows user location button
+                MapUserLocationButton()
             }
             .ignoresSafeArea()
             .navigationTitle("Map")
