@@ -5,14 +5,13 @@
 //  Created by Raunit Raj on 20/04/25.
 //
 
-// PostDetailView.swift
 
 import SwiftUI
 
 struct PostDetailView: View {
-    @EnvironmentObject var postStore: PostStore  // Inject the PostStore here
+    @EnvironmentObject var postStore: PostStore 
     @State private var newComment: String = ""
-    @Binding var post: Post  // Binding to modify the post
+    @Binding var post: Post 
 
     var body: some View {
         ScrollView {
@@ -64,7 +63,7 @@ struct PostDetailView: View {
                     Button("Post Comment") {
                         if !newComment.isEmpty {
                             post.comments.append(newComment)
-                            newComment = ""  // Clear comment input
+                            newComment = "" 
                         }
                     }
                     .buttonStyle(.borderedProminent)
@@ -84,7 +83,7 @@ struct PostDetailView: View {
 
 #Preview {
     PostDetailView(post: .constant(Post(title: "Sample Post", imageName: "mountain")))
-        .environmentObject(PostStore())  // Ensure postStore is passed
+        .environmentObject(PostStore())  
 }
 
 
