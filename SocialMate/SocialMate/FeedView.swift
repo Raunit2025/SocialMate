@@ -5,8 +5,6 @@
 //  Created by Raunit Raj on 20/04/25.
 //
 
-// FeedView.swift
-
 import SwiftUI
 
 struct FeedView: View {
@@ -17,7 +15,6 @@ struct FeedView: View {
             List($postStore.posts) { $post in
                 NavigationLink(destination: PostDetailView(post: $post)) {
                     VStack(alignment: .leading, spacing: 10) {
-                        // Show image (either loaded from file or default from assets)
                         Group {
                             if let image = postStore.getImage(for: post.imageName) {
                                 Image(uiImage: image)
