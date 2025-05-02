@@ -25,9 +25,14 @@ This project is built purely with local SwiftUI and does not require any backend
   A simple embedded browser with a loading indicator (pre-configured to open Google).
 
 ## Screenshots
-
-> ![App Screenshot](SocialMate/SocialMate/Assets.xcassets/Img1.jpg)
-
+<div style="display: flex; align-items: center;">
+<img src="SocialMate/SocialMate/Assets.xcassets/Img1.jpg" alt="App Screenshot" width="200" style="margin-right: 10px;"/>
+<img src="SocialMate/SocialMate/Assets.xcassets/Img2.jpg" alt="App Screenshot" width="200" style="margin-right: 10px;"/>
+<img src="SocialMate/SocialMate/Assets.xcassets/Img3.jpg" alt="App Screenshot" width="200" style="margin-right: 10px;"/>
+<img src="SocialMate/SocialMate/Assets.xcassets/Img4.jpg" alt="App Screenshot" width="200" style="margin-right: 10px;"/>
+<img src="SocialMate/SocialMate/Assets.xcassets/Img5.jpg" alt="App Screenshot" width="200" style="margin-right: 10px;"/>
+<img src="SocialMate/SocialMate/Assets.xcassets/Img6.jpg" alt="App Screenshot" width="200" style="margin-right: 10px;"/>
+</div>
 
 ## Tech Stack
 
