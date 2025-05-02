@@ -26,7 +26,7 @@ This project is built purely with local SwiftUI and does not require any backend
 
 ## Screenshots
 
-> ![App Screenshot](assets/Img1.jpg)
+> ![App Screenshot](SocialMate/SocialMate/Assets.xcassets/Img1.jpg)
 
 
 ## Tech Stack
