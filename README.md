@@ -26,7 +26,8 @@ This project is built purely with local SwiftUI and does not require any backend
 
 ## Screenshots
 
-> (You can add screenshots here later)
+> ![App Screenshot](assets/Img1.jpg)
+
 
 ## Tech Stack
 
