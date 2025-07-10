@@ -67,7 +67,7 @@ SocialMate
 └── Helpers
     └── ImagePicker.swift
 
-
+```
 How to Contribute
 Contributions are welcome!
 You can fork the repository, create a branch, make improvements, and submit a pull request.
